@@ -4,7 +4,7 @@ import { BlurView } from "@react-native-community/blur";
 import MenuButton from './MenuButton';
 
 
-export default Menu = ({ navigation }) => {
+const  Menu = ({ navigation }) => {
 
     const List = [
         {
@@ -43,7 +43,7 @@ export default Menu = ({ navigation }) => {
         );
     }
 
-    const [visible, setVisible] = useState(true)
+    const [visible, setVisible] = useState(false)
 
     if (visible) {
 
@@ -89,3 +89,5 @@ export default Menu = ({ navigation }) => {
     }
 }
 
+
+export default Menu;

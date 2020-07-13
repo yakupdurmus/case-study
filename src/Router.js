@@ -4,7 +4,6 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
 //Pages
-import Contact from './Containers/Contact';
 import Dashboard from './Containers/Dashboard';
 import Help from './Containers/Help';
 import Kvkk from './Containers/Kvkk';
@@ -20,7 +19,6 @@ function Router() {
                 }}
             >
                 <Stack.Screen name="Dashboard" component={Dashboard} />
-                <Stack.Screen name="Contact" component={Contact} />
                 <Stack.Screen name="Help" component={Help} />
                 <Stack.Screen name="Kvkk" component={Kvkk} />
             </Stack.Navigator>
