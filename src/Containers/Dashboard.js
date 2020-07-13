@@ -26,7 +26,7 @@ export class Dashboard extends Component {
                     source={require('../Assets/QR.png')}
                     style={{ width: boxSize / 3, height: boxSize / 3, margin: 10 }}
                 />
-                <Text style={{ fontSize: 22, color: '#555' }}>QR</Text>
+                <Text style={{ fontSize: 22, color: '#555',fontFamily:'Poppins-Bold' }}>QR</Text>
             </TouchableOpacity>
         )
     }

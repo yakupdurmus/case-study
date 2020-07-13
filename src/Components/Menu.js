@@ -66,11 +66,15 @@ const  Menu = ({ navigation }) => {
 
                     {List.map((item, index) => {
                         return (
-                            <Text onPress={() => {
+                            <Text 
+                            key={index}
+                            onPress={() => {
                                 item.route && navigation.navigate(item.route);
                                 item.phone && onPressCall(item.phone);
                                 setVisible(false);
-                            }} style={{ paddingBottom: 10, fontSize: 30, textAlign: 'left', color: 'green' }} key={index}>{item.text}</Text>
+                            }} style={{ 
+                                fontFamily:'Poppins-Bold',
+                                paddingBottom: 10, fontSize: 30, textAlign: 'left', color: 'green' }} key={index}>{item.text}</Text>
                         )
                     })}
                 </View>
