@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Text, View } from 'react-native'
 
-export default class Kkvk extends Component {
+export default class Kvkk extends Component {
     render() {
         return (
             <View>

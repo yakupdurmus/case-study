@@ -19,9 +19,9 @@ const MenuButton = ({isOpen,onPressButton}) => {
         )
     }else{
         return(
-            <TouchableOpacity onPress={onPressButton} style={{ width: 74, height: 74, borderRadius: 37, backgroundColor: '#5aa74a', justifyContent: 'center', alignItems: 'center', position: 'absolute', bottom: 20, left: 20 }}>
-            <Text style={{fontSize:35,color:'#fff'}}>X</Text>
-            <Text style={{ color: '#fff', marginTop: -8 }}>Menu</Text>
+            <TouchableOpacity onPress={onPressButton} style={{ width: 74, height: 74, borderRadius: 37, backgroundColor: 'transparent', justifyContent: 'center', alignItems: 'center', position: 'absolute', bottom: 20, left: 20 }}>
+            <Text style={{fontSize:35,color:'#5aa74a'}}>X</Text>
+            <Text style={{ color: '#5aa74a', marginTop: -8 }}>Menu</Text>
         </TouchableOpacity>
         )
     }
